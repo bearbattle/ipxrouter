@@ -3,6 +3,7 @@ name: Server
 on:
   push:
     paths: ['server/**', '.github/workflows/server.yml']
+  workflow_dispatch:
 
 jobs:
   build:

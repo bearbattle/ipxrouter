@@ -3,6 +3,7 @@ name: Client
 on:
   push:
     paths: ['client/**', '.github/workflows/client.yml']
+  workflow_dispatch:
 
 env:
   # Path to the solution file relative to the root of the project.
